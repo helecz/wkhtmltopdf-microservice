@@ -1,0 +1,6 @@
+wkhtmltopdf:
+  build: .
+  volumes:
+    - .:/app
+  ports:
+    - "81:80"
